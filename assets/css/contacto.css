@@ -1,0 +1,70 @@
+section.contacto{
+	background: white;
+	height: auto;
+	padding-bottom: 1em;
+}
+
+section.contacto .contactanos{
+	width: 80%;
+	margin: 2em auto;
+	display: block;	
+}
+
+section.contacto .contactanos li {
+    display: inline-block;
+    width: 49%;
+    color: black;
+    padding: 2em;
+    background: rgba(165, 165, 165, 0.34);
+    margin-bottom: .8em;
+    margin-left: .4em;
+    -webkit-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+	-moz-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+	-o-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+	-ms-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+}
+
+section.contacto .contactanos li a {
+    display: block;
+    margin: 0 auto;
+	
+}
+section.contacto .contactanos li a i{
+    display: block;
+    margin: 0 auto;
+	color: #4c4c4c;
+	font-size: 5em;
+	text-align: center;
+	-webkit-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+	-moz-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+	-o-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+	-ms-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+
+}
+
+section.contacto .contactanos li:hover{
+    background: #ac2a2a;
+}
+section.contacto .contactanos li:hover a i{
+    color: white;
+}
+
+section.contacto .mapa{
+    width: 80%;
+    height: 60vh;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px){
+	section.contacto .contactanos{
+		margin: 2em auto;
+	}
+	section.contacto .contactanos li {
+	    width: 100%;
+	}
+	section.contacto .mapa{
+	    width: 100%;
+	}
+
+}

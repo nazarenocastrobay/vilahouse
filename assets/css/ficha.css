@@ -1,0 +1,33 @@
+header{
+	background-image: url(../img/header/fichabg.jpg);
+}
+
+section.ficha{
+	background: white;
+	height: auto;
+	padding-bottom: 1em;
+}
+section.ficha .foto-ficha{
+	display: block;
+	margin: 0 auto;
+}
+ul.datos{
+	column-count: 2;
+    width: 86%;
+    display: block;
+    margin: 0 auto;	
+    background-color: #e65a5a;
+    padding: .5em;
+}
+ul.datos li{
+	color: white;
+	margin: .5em 0em;
+	padding: .5em;
+}
+
+@media screen and (max-width: 500px){
+	ul.datos{
+		column-count: 1;
+	    width: 95%;
+	}
+}
