@@ -29,11 +29,6 @@ $(document).ready(function(){
 	   }
 	   lastScrollTop = st;
 	});*/
-	function explode(){
-		console.log('kabimo');
-	  $('.loader').css('opacity', '0');
-	}
-	setTimeout(explode, 100);
 	
 
 	$("#mas-detalles").click(function() {

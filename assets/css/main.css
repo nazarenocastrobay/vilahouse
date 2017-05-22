@@ -29,12 +29,13 @@ a{
 		  50% {
 		    opacity: 0;
 		  }
-		  99% {
-		    top: 0;
-		    opacity: 0;
+		  90%{
+			top: 0%;
+			opacity: 0;
 		  }
 		  100%{
 			top: -200%;
+			opacity: 0;
 		  }
 	}
 	.loader img{
