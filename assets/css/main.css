@@ -13,7 +13,7 @@ a{
 	color: white;
 }
 	.loader{
-		position: absolute;
+		position: fixed;
 		top: 0%;
 		left: 0%;
 		height: 100vh;
@@ -358,7 +358,7 @@ i{
 	}
 	section.promos ul{
 		width: 100%;
-		margin-top: 2em;
+		margin: 2em;
 	}
 	section.promos ul li{
 		width: 28%;
@@ -441,7 +441,30 @@ i{
 		font-size: 1.5em;
 		padding: .2em .5em;
 	}
-
+	section.promos .ver-todas{
+		display: block;
+		margin: 0 auto;
+		width: 30%;
+	}
+	section.promos .ver-todas a {
+		display: block;
+	    margin: 0 auto;
+	    width: 100%;
+	    background: transparent;
+	    color: #fbf254;
+	    padding: .2em .6em;
+	    text-align: center;
+	    font-size: 2em;
+	    border: #fbf254 .1em solid;
+	    -webkit-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+		-moz-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+		-o-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+		-ms-transition: .5s all cubic-bezier(.29,-0.1,.31,1);
+	}
+	section.promos .ver-todas a:hover {
+	    background: #fbf254;
+	    color: black;
+	}
 	
 /*ULTIMAS CONSTRUCCIONES*/
 	section.ultimas{
@@ -579,6 +602,8 @@ i{
 	header .logo {
 		display: block;
 		margin: 0;
+	    width: 62%;
+    	margin-left: 20%;
 	}
 	header .logo img{
 		display: block;
@@ -604,6 +629,19 @@ i{
 	    margin-left: 0;
 	    margin-top: .8em;
 	    text-align: center;
+	}
+	section.promos{
+		padding-bottom: 1em;
+	}
+	section.promos ul{
+		margin: 0;
+		margin-top: 2em;
+	}
+	section.promos .ver-todas{
+		width: 90%
+	}
+	section.promos .ver-todas a{
+		font-size: 1.5em
 	}
 	section.promos ul li {
 	    width: 90%;
